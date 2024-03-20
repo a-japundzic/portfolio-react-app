@@ -5,6 +5,8 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
 import Hamburger from 'hamburger-react'
 
+import Pdf from '../resume/Andreja_Japundzic_Resume.pdf'
+
 import Logo from '../assets/logo2.png'
 
 const Navbar = () => {
@@ -21,9 +23,9 @@ const Navbar = () => {
   
     const controlNavbar = () => {
       if (window.scrollY > 250) { // if scroll down hide the navbar
-        setShow(true); 
+        setShow(false); 
       } else { // if scroll up show the navbar
-        setShow(false);  
+        setShow(true);  
       }
   
       // remember current page location to use in the next move
@@ -41,12 +43,12 @@ const Navbar = () => {
 
   return (
     <div className={`fixed w-full h-[80px] flex justifty-between items-center px-4 bg-[##000000] text-[#CCFF01]`}>
-        <div className={`active ${show && 'hidden'}`}>
+        <div className={`logo-width:flex active ${!show && 'hidden'}`}>
             <img src={Logo} alt="Logo Image" style={{width: '50px'}} />
         </div>
 
         {/* menu */}
-        <ul className='hidden md:flex ml-auto'>
+        <ul className='hidden nav-width:flex ml-auto'>
             <li>
                 <Link
                     to="home" 
@@ -63,6 +65,15 @@ const Navbar = () => {
                     duration={500} 
                 >
                     About
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to="timeline" 
+                    smooth={true} 
+                    duration={500} 
+                >
+                    Timeline
                 </Link>
             </li>
             <li>
@@ -95,7 +106,7 @@ const Navbar = () => {
         </ul>
 
         {/* Hamburger */}
-        <div onClick={handleClick} className='md:hidden ml-auto z-10'>
+        <div onClick={handleClick} className='nav-width:hidden ml-auto z-10'>
             <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
         </div>
 
@@ -119,6 +130,16 @@ const Navbar = () => {
                     duration={500} 
                 >
                     About
+                </Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link 
+                    onClick={handleClick}
+                    to="timeline" 
+                    smooth={true} 
+                    duration={500} 
+                >
+                    Timeline
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
@@ -154,31 +175,31 @@ const Navbar = () => {
         </ul>
 
         {/* Social icons */}
-        {/* <div className='flex fixed flex-col top-[35%] left-0 text-white'>
+         <div className='flex fixed flex-col top-[35%] left-0 text-white'>
             <ul>
                 <li className='w-[80px] logo-width:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                    <a className='mr-[-10px] lg:mr-0 duration-300 flex justify-between items-center w-full text-white' href="/">
+                    <a className='mr-[-10px] lg:mr-0 duration-300 flex justify-between items-center w-full text-white' href="https://www.linkedin.com/in/a-japundzic/" target='_blank'>
                         LinkedIn <FaLinkedin size={30} />
                     </a>
                 </li>
                 <li className='w-[80px] logo-width:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                    <a className='mr-[-10px] lg:mr-0 duration-300 flex justify-between items-center w-full text-white' href="/">
+                    <a className='mr-[-10px] lg:mr-0 duration-300 flex justify-between items-center w-full text-white' href="https://github.com/a-japundzic" target='_blank'>
                         GitHub <FaGithub size={30} />
                     </a>
                 </li>
                 <li className='w-[80px] logo-width:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                    <a className='mr-[-10px] lg:mr-0 duration-300 flex justify-between items-center w-full text-white' href="/">
+                    <a className='mr-[-10px] lg:mr-0 duration-300 flex justify-between items-center w-full text-white' href="mailto:japu1350@mylaurier.ca">
                         Email <HiOutlineMail size={30} />
                     </a>
                 </li>
                 <li className='w-[80px] logo-width:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                    <a className='mr-[-10px] lg:mr-0 duration-300 flex justify-between items-center w-full text-white' href="/">
+                    <a className='mr-[-10px] lg:mr-0 duration-300 flex justify-between items-center w-full text-white' href = {Pdf} target = "_blank">
                         Resume <BsFillPersonLinesFill size={30} />
                     </a>
                 </li>
             </ul>
 
-        </div> */}
+        </div>
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { GrDocumentText } from "react-icons/gr";
+import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Pdf from '../resume/Andreja_Japundzic_Resume.pdf'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import {Link} from 'react-scroll'
@@ -39,17 +40,17 @@ export const About = () => {
             <a href = {Pdf} target = "_blank">
                         <button className='text-white group border-2 px-6 py-3 my-2 flex justify-center items-center hover:text-black hover:bg-[#CCFF01] hover:border-[#CCFF01] duration-300'>
                             Resume
-                            <GrDocumentText className='ml-3'/> 
+                            <BsFillPersonLinesFill className='ml-3'/> 
                         </button>
             </a>
             <div> 
                 <Link 
-                    to="work" 
+                    to="timeline" 
                     smooth={true} 
                     duration={700} 
                 >
                     <button className='text-white group border-2 px-6 py-3 my-2 flex justify-center items-center hover:text-black hover:bg-[#CCFF01] hover:border-[#CCFF01] duration-300'>
-                        Projects
+                        Timeline
                         <HiArrowNarrowRight className='ml-3 group-hover:rotate-90 duration-300'/> 
                     </button>
                 </Link>

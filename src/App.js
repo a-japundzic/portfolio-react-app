@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import Timeline from "./components/Timeline";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Timeline />
       <Work />
       <Skills />
       <Contact />

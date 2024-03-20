@@ -3,7 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     screens: {
-      'logo-width': '1093px',
+      'nav-width': '845px',
+
+      'logo-width': '1135px',
       // Width at which logos disappear
 
       'sm': '640px',
