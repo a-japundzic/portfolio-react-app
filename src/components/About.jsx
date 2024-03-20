@@ -37,7 +37,7 @@ export const About = () => {
             </div>
 
             <div className='py-6 max-w-[1000px] w-full grid sm:text-justify sm:grid-cols-2 gap-4 justify-items-center'>
-            <a href = {Pdf} target = "_blank">
+            <a href = {Pdf} target = "_blank" rel="noreferrer">
                         <button className='text-white group border-2 px-6 py-3 my-2 flex justify-center items-center hover:text-black hover:bg-[#CCFF01] hover:border-[#CCFF01] duration-300'>
                             Resume
                             <BsFillPersonLinesFill className='ml-3'/> 

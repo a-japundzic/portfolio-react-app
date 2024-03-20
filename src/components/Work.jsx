@@ -34,7 +34,7 @@ const Work = () => {
                 Personal Website
               </span>
               <div className='pt-8 text-center'>
-                <a href="https://github.com/a-japundzic/portfolio-react-app" target='_blank'>
+                <a href="https://github.com/a-japundzic/portfolio-react-app" target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>
                     Info
                   </button>
@@ -57,7 +57,7 @@ const Work = () => {
                 Chess in C++
               </span>
               <div className='pt-8 text-center'>
-                <a href="https://github.com/a-japundzic/Chess" target="_blank"> 
+                <a href="https://github.com/a-japundzic/Chess" target="_blank" rel="noreferrer"> 
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>
                     Info
                   </button>
@@ -80,7 +80,7 @@ const Work = () => {
                 Book Database in Java
               </span>
               <div className='pt-8 text-center'>
-                <a href="https://github.com/a-japundzic/BookSmart-Database" target='_blank' >
+                <a href="https://github.com/a-japundzic/BookSmart-Database" target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>
                     Info
                   </button>
@@ -103,7 +103,7 @@ const Work = () => {
                 2D Minigame in Java
               </span>
               <div className='pt-8 text-center'>
-                <a href="https://github.com/a-japundzic/TheBindingOfICS" target='_blank'>
+                <a href="https://github.com/a-japundzic/TheBindingOfICS" target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>
                     Info
                   </button>
@@ -126,7 +126,7 @@ const Work = () => {
                 React Native and AWS App
               </span>
               <div className='pt-8 text-center'>
-                <a href="https://github.com/a-japundzic/MENT-APP" target='_blank'>
+                <a href="https://github.com/a-japundzic/MENT-APP" target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>
                     Info
                   </button>
