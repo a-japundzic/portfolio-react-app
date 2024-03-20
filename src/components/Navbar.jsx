@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaLink} from 'react-icons/fa'
+import {FaGithub, FaLinkedin} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
@@ -44,7 +44,7 @@ const Navbar = () => {
   return (
     <div className={`fixed w-full h-[80px] flex justifty-between items-center px-4 bg-[##000000] text-[#CCFF01]`}>
         <div className={`logo-width:flex active ${!show && 'hidden'}`}>
-            <img src={Logo} alt="Logo Image" style={{width: '50px'}} />
+            <img src={Logo} alt="Logo" style={{width: '50px'}} />
         </div>
 
         {/* menu */}

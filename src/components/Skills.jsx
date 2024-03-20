@@ -17,7 +17,6 @@ import READHAT from '../assets/redhat.png'
 import SQL from '../assets/sql.png'
 import TAILWIND from '../assets/tailwind.png'
 import UBUNTU from '../assets/ubuntu.png'
-import YAML from '../assets/yaml.png'
 
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import {Link} from 'react-scroll'

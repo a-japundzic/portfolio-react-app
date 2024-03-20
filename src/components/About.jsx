@@ -1,12 +1,10 @@
 import React from 'react'
 
-import { GrDocumentText } from "react-icons/gr";
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Pdf from '../resume/Andreja_Japundzic_Resume.pdf'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import {Link} from 'react-scroll'
 
-import Typewriter from 'typewriter-effect';
 
 export const About = () => {
   return (

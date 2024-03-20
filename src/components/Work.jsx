@@ -1,7 +1,5 @@
 import React from 'react'
 import personalWebsite from '../assets/projects/personalWebsite.jpg'
-import realEstate from '../assets/projects/realestate.jpg'
-import WorkImg from '../assets/projects/workImg.jpeg'
 import chess from '../assets/projects/chess.png'
 import booksmart from '../assets/projects/booksmart.png'
 import bindingofICS from '../assets/projects/bindingOfICS.png'
