@@ -10,7 +10,7 @@ import {Link} from 'react-scroll'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-white bg-[#000000] pb-[400px] pt-[400px]'>
+    <div name='work' className='w-full md:h-screen text-white bg-[#000000]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#CCFF01]'>Projects</p>
@@ -134,18 +134,6 @@ const Work = () => {
           </div>
         </div>
 
-        <div className='flex justify-center items-center pt-[75px]'> 
-                    <Link 
-                        to="skills" 
-                        smooth={true} 
-                        duration={700} 
-                    >
-                        <button className='text-white group border-2 px-6 py-3 my-2 flex justify-center items-center hover:text-black hover:bg-[#CCFF01] hover:border-[#CCFF01] duration-300'>
-                            Skills
-                            <HiArrowNarrowRight className='ml-3 group-hover:rotate-90 duration-300'/> 
-                        </button>
-                    </Link>
-          </div>
 
       </div>
     </div>

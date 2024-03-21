@@ -17,7 +17,7 @@ const Home = () => {
                     options={{
                         autoStart: true,
                         delay: 130,
-                        cursor: "",
+                        cursor: "|",
                     }}
                     onInit={(typewriter) => {
                         typewriter

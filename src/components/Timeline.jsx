@@ -47,13 +47,13 @@ const Timeline = () => {
 
 
     return (
-        <div name='timeline' className='bg-[#000000] w-full h-screen items-center text-white '>
+        <div name='timeline' className='bg-[#000000] w-full items-center text-white '>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-5'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#CCFF01] '>Personal Timeline</p>
                 </div>
 
-                <Chrono 
+                <Chrono
                     theme={{
                         primary: '#CCFF01',
                         secondary: '#00000',
@@ -72,19 +72,6 @@ const Timeline = () => {
                     }}
                 
                     items={items} mode="VERTICAL_ALTERNATING" disableToolbar cardHeight={255} />
-
-                <div className='flex justify-center items-center pt-[75px]'> 
-                    <Link 
-                        to="work" 
-                        smooth={true} 
-                        duration={700} 
-                    >
-                        <button className='text-white group border-2 px-6 py-3 my-2 flex justify-center items-center hover:text-black hover:bg-[#CCFF01] hover:border-[#CCFF01] duration-300'>
-                            Projects
-                            <HiArrowNarrowRight className='ml-3 group-hover:rotate-90 duration-300'/> 
-                        </button>
-                    </Link>
-                </div>
             </div>
         </div>
     )

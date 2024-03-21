@@ -24,7 +24,7 @@ import {Link} from 'react-scroll'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#000000] text-white'>
+    <div name='skills' className='w-full md:h-screen bg-[#000000] text-white'>
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
@@ -97,19 +97,6 @@ const Skills = () => {
                     <img className='w-20 mx-auto' src={UBUNTU} alt="HTML icon" />
                     <p className='py-0.5'>UBUNTU</p>
                 </div>
-            </div>
-
-            <div className='flex justify-center items-center pt-[75px]'> 
-                    <Link 
-                        to="contact" 
-                        smooth={true} 
-                        duration={700} 
-                    >
-                        <button className='text-white group border-2 px-6 py-3 my-2 flex justify-center items-center hover:text-black hover:bg-[#CCFF01] hover:border-[#CCFF01] duration-300'>
-                            Contact
-                            <HiArrowNarrowRight className='ml-3 group-hover:rotate-90 duration-300'/> 
-                        </button>
-                    </Link>
             </div>
             
         </div>

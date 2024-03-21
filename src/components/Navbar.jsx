@@ -42,7 +42,7 @@ const Navbar = () => {
     }, [lastScrollY]);
 
   return (
-    <div className={`fixed w-full h-[80px] flex justifty-between items-center px-4 bg-[##000000] text-[#CCFF01]`}>
+    <div className={`fixed w-full h-[80px] flex justifty-between items-center px-4 bg-[##000000] text-[#CCFF01] z-[9999]`}>
         <div className={`logo-width:flex active ${!show && 'hidden'}`}>
             <img src={Logo} alt="Logo" style={{width: '50px'}} />
         </div>
