@@ -9,10 +9,10 @@ const Home = () => {
     <div name='home' className='bg-[#000000] w-full h-screen items-center'>
         {/* Container */}
         <div className='max-w-[1200px] mx-auto px-8 flex flex-col justify-center items-center h-full'>
-            <h1 className='text-3xl text-[#CCFF01] text-center'>
+            <h1 className='text-l sm:text-3xl text-[#CCFF01] text-center'>
                 Hi, my name is
             </h1>
-            <h1 className='font-caveat text-4xl py-3 sm:text-8xl font-bold text-[#ffffff] text-center'>
+            <h1 className='font-caveat text-3xl py-3 sm:text-8xl font-bold text-[#ffffff] text-center'>
                 <Typewriter
                     options={{
                         autoStart: true,
