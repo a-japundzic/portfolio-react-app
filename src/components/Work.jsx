@@ -5,9 +5,6 @@ import booksmart from '../assets/projects/booksmart.png'
 import bindingofICS from '../assets/projects/bindingOfICS.png'
 import MENT from '../assets/projects/MENT.png'
 
-import {HiArrowNarrowRight} from 'react-icons/hi'
-import {Link} from 'react-scroll'
-
 const Work = () => {
   return (
     <div name='work' className='w-full md:h-screen text-white bg-[#000000]'>

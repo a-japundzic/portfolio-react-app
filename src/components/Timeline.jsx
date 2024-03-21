@@ -2,9 +2,6 @@ import React from 'react'
 
 import { Chrono } from 'react-chrono'
 
-import {HiArrowNarrowRight} from 'react-icons/hi'
-import {Link} from 'react-scroll'
-
 const Timeline = () => {
     
     const items = [
