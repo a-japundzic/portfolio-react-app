@@ -121,7 +121,7 @@ const Work = () => {
                 React Native and AWS App
               </span>
               <div className='pt-8 text-center'>
-                <a href="https://github.com/a-japundzic/MENT-APP" target='_blank' rel="noreferrer">
+                <a href="https://github.com/a-japundzic/ment-website" target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>
                     Info
                   </button>
