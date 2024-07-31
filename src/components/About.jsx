@@ -2,9 +2,6 @@ import React from 'react'
 
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Pdf from '../resume/Andreja_Japundzic_Resume.pdf'
-import {HiArrowNarrowRight} from 'react-icons/hi'
-import {Link} from 'react-scroll'
-
 
 export const About = () => {
   return (
