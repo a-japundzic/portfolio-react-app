@@ -23,12 +23,12 @@ const Timeline = () => {
         {
             title: "September-December 2024",
             cardTitle: "Exchange",
-            cardDetailedText: "I will be going on exchange to the NHH Norwegian School of Economics in Bergen, Norway. NHH is one of the leading business schools in Europe, where I will have the opportunity to grow my business skills. Additionally, the ability to experience several different cultures will help me gain unique perspectives and assist in my overall growth as an individual. ",
+            cardDetailedText: "I went on exchange to the NHH Norwegian School of Economics in Bergen, Norway. NHH is one of the leading business schools in Europe, where I had the opportunity to grow my business skills. Additionally, the ability to experience several different cultures helped me gain unique perspectives and assisted in my overall growth as an individual. ",
         },
         {
             title: "January-April 2025",
             cardTitle: "Third Co-op Term",
-            cardDetailedText: "This will be my third co-op term and the one I am currently applying to jobs for. I am hoping to bring my unique perspectives and skills to assist the company in pursuing its objectives. I also hope to continue my learning and building my skill set through my role at the company. ",
+            cardDetailedText: "This is my third co-op term. I am currently working at RBC as a software engineer. I am hoping to bring my unique perspectives and skills to assist the company in pursuing its objectives. I also hope to continue my learning and building my skill set through my role at the company. ",
         },
         {
             title: "September-December 2025",
